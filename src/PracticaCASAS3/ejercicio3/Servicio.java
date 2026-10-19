@@ -17,6 +17,9 @@ public class Servicio {
             System.out.println("Error el nombre no puede estar vaicio");
         }
     }
+    public int getPuerto(){
+        return puerto;
+    }
     public void setPuerto(int puerto) {
         if (puerto > 0) {
             this.puerto = puerto;

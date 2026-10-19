@@ -7,8 +7,8 @@ public class LuzInteligente {
     private boolean encendida;
 
     //Constructor
-    public LuzInteligente(String idLuz, int nivelBrillo, boolean encendida){
-        this.idLuz=idLuz;
+    public LuzInteligente(String idLuz){
+        this.idLuz= idLuz;
         this.nivelBrillo=0;
         this.encendida=false;
     }

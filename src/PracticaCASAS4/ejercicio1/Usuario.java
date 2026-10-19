@@ -1,0 +1,36 @@
+package PracticaCASAS4.ejercicio1;
+
+public class Usuario {
+    private int id;
+    private String username;
+    private String correo;
+    private boolean activo;
+    private static int contadorUsuarios = 0;
+
+    //Constructor
+    public Usuario(String username, String correo) {
+        contadorUsuarios++;
+        this.id = contadorUsuarios;
+        this.username = username;
+        this.correo = correo;
+        this.activo = true;
+    }
+
+    //Getters
+    public int getId() {
+        return id;
+    }
+    public String getUsername(){
+        return username;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+    public boolean isActivo(){
+        return activo;
+    }
+    public static int getTotalUsuarios(){
+        return contadorUsuarios;
+    }
+}

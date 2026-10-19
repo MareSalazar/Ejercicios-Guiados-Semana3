@@ -4,6 +4,7 @@ public class DispositivoConstructores {
     private String nombre;
     private String tipo;
     private boolean activo;
+    private int id;
 
     //Contador Compartido
     private static int contador = 0;
@@ -16,7 +17,9 @@ public class DispositivoConstructores {
         this.activo= false;
 
         contador++;
+        this.id=contador;
     }
+    //Metodo Static
     public static int getTotalCreados(){
         return contador;
     }
@@ -30,6 +33,9 @@ public class DispositivoConstructores {
 
     public boolean isActivo() {
         return activo;
+    }
+    public int getId(){
+        return id;
     }
     //Setters
 

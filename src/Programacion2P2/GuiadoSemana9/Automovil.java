@@ -1,5 +1,8 @@
 package Programacion2P2.GuiadoSemana9;
 
+import Programacion2P2.CASASemana9.Vehiculos.Propietario;
+import Programacion2P2.CASASemana9.Vehiculos.Vehiculo;
+
 public class Automovil extends Vehiculo {
     private int numeroPuertas;
 

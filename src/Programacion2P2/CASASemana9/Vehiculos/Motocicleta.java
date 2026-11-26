@@ -1,4 +1,4 @@
-package Programacion2P2.GuiadoSemana9.vehiculos;
+package Programacion2P2.CASASemana9.Vehiculos;
 
 public class Motocicleta extends Vehiculo {
     private int cilindraje;

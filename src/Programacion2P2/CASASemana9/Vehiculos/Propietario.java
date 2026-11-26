@@ -1,4 +1,4 @@
-package Programacion2P2.CASASemana9;
+package Programacion2P2.CASASemana9.Vehiculos;
 
 public class Propietario {
     private String nombre;

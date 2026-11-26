@@ -1,4 +1,4 @@
-package Programacion2P2.CASASemana9;
+package Programacion2P2.CASASemana9.Vehiculos;
 
 import java.util.ArrayList;
 import java.util.Scanner;

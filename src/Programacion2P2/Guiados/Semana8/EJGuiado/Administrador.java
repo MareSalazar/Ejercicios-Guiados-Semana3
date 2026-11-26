@@ -1,4 +1,4 @@
-package Programacion2P2.Guiados.Semana8;
+package Programacion2P2.Guiados.Semana8.EJGuiado;
 
 // Paso 2: Administrador hereda de Usuario.
 public class Administrador extends Usuario {

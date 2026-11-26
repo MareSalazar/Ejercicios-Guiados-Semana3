@@ -1,4 +1,4 @@
-package Programacion2P2.Guiados.Semana8;
+package Programacion2P2.Guiados.Semana8.EJGuiado;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class Main {
         System.out.println("¿Sigue registrado cliente1? "
                 + (sistema.buscarUsuario("cliente1") != null));
 
-        // Desafío: agregar Soporte usando el mismo método agregarUsuario().
+        // Desafío: agregar Soporte usando el mismo metodo agregarUsuario().
         sistema.agregarUsuario(new Soporte("soporte1", "soporte@demo.com"));
         System.out.println("\nListado después de agregar Soporte");
         System.out.print(sistema.mostrarUsuarios());

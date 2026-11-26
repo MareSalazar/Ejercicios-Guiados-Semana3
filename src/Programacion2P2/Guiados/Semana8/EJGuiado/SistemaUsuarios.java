@@ -1,4 +1,4 @@
-package Programacion2P2.Guiados.Semana8;
+package Programacion2P2.Guiados.Semana8.EJGuiado;
 
 import java.util.ArrayList;
 

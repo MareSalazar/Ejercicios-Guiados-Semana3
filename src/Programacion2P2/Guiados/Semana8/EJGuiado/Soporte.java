@@ -1,4 +1,4 @@
-package Programacion2P2.Guiados.Semana8;
+package Programacion2P2.Guiados.Semana8.EJGuiado;
 
 // Desafío de la guía: añadir otro subtipo que la lista de Usuario ya puede recibir.
 public class Soporte extends Usuario {

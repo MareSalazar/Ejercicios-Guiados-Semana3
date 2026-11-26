@@ -1,4 +1,4 @@
-package Programacion2P2.Guiados.Semana8;
+package Programacion2P2.Guiados.Semana8.EJGuiado;
 
 // Paso 1 de la guía: reúne los datos y métodos comunes a todos los roles.
 public class Usuario {

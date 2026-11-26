@@ -1,4 +1,4 @@
-package Programacion2P2.Guiados.Semana8;
+package Programacion2P2.Guiados.Semana8.EJGuiado;
 
 // Pasos 2 a 4: especializa Usuario para el rol de cliente.
 public class Cliente extends Usuario {
